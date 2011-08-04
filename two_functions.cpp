@@ -14,3 +14,9 @@ int primary_function( int x )
 {
     return x++;
 }
+
+// I'm adding this but I don't want it in the main trunk yet.
+int foo( int y )
+{
+    return 2*y;
+}
